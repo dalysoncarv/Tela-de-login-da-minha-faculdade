@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login - AlunoX</title>
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+    
+    
+    <link rel="stylesheet" href="/css/styles.css">
+
+    
+    <link rel="shortcut icon" href="/img/logo.icon.png" type="image/x-icon" />
+</head>
+<body>
+    
+    <button id="toggle-theme" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="container">
+        <div class="content second-content">
+            
+            <div class="first-column">
+                <h2 class="title title-primary">Olá, Aluno. Que bom ter você de volta!</h2>
+                <p class="description description-primary">Clique abaixo para acessar.</p>
+                <p class="description description-primary">Seu e-mail de acesso é:</p>
+                <p class="description description-primary">suamatricula@alunos.estacio.br</p>
+            </div>
+
+            
+            <div class="second-column">
+                <h2 class="title title-second">Faça seu login</h2>
+                <p class="description description-second">ou use seu e-mail de estudante para registro:</p>
+                
+                <form class="form" id="login-form">
+                   
+                    <label class="label-input">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </label>
+                
+                  
+                    <label class="label-input">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" id="password" placeholder="Password" required minlength="6">
+                    </label>
+                
+                    
+                    <div class="actions">
+                        <button type="submit" class="btn btn-second">Entrar</button>
+                        <a class="password" href="#">Esqueci minha senha</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="/js/app.js"></script>
+</body>
+</html>
